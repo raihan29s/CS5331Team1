@@ -36,17 +36,19 @@ Use command: > write.csv(tweets, "TwitterData.csv")
 ## Examples of R usage in our project
 - Install library
 ``` R
-	>install.packages('TweeteR')
-	> require('TweeteR')
+>install.packages('TweeteR')
+> require('TweeteR')
 ```    
 - Setup authentication
 ``` R
-  >setup_twitter_oauth(consumer_key,consume_secret,access_key,access_secret) ##These paramenters retrieved from http://apps.twitter.com
+>setup_twitter_oauth(consumer_key,consume_secret,access_key,access_secret) 
+#These paramenters retrieved from http://apps.twitter.com
 	  
 ```    
 - Querry tweets
 ``` R
-	>tweets <- searchTwitter('Tropical Depression', n=10000, lang='en', since='2017-08-26', until='2017-09-08')
-  >tweetds <-twListToDF(tweets) #Convert data to data frame
-  >write.csv(tweetds, "TwitterData.csv") # export data frame to csv file
+>tweets <- searchTwitter('Tropical Depression Harvey', n=10000, lang='en', since='2017-08-26', until='2017-09-08')
+>tweetds <-twListToDF(tweets) #Convert data to data frame
+>write.csv(tweetds, "TwitterData.csv") # export data frame to csv file
 ```
+!Hura
