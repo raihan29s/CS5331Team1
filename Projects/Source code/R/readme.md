@@ -7,6 +7,7 @@ This package assumes using RStudio. Please go ahead and download RStudio at http
 
 ## Components
 - **Tweet:** Model class to give some informations about a specific tweet.
+
   -text	
   
   -favorited	
