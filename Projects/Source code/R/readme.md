@@ -8,26 +8,42 @@ This package assumes using RStudio. Please go ahead and download RStudio at http
 ## Components
 - **Tweet:** Model class to give some informations about a specific tweet.
   -text	
+  
   -favorited	
+  
   -favoriteCount	
+  
   -replyToSN	
+  
   -created	
+  
   -truncated	
+  
   -replyToSID	
+  
   -id	
+  
   -replyToUID	
+  
   -statusSource	
+  
   -screenName	
+  
   -retweetCount	
+  
   -isRetweet	
+  
   -retweeted	
+  
   -longitude	
+  
   -latitude
 
 
 - **Usage:** 
  searchTwitter(searchString, n=25, lang=NULL, since=NULL, until=NULL, locale=NULL, geocode=NULL, sinceID=NULL, maxID=NULL,
-	      resultType=NULL, retryOnRateLimit=120, ...) 
+	      resultType=NULL, retryOnRateLimit=120, ...).
+	      
 For more information how to use this library. Please visit: https://www.rdocumentation.org/packages/twitteR/versions/1.1.9/topics/searchTwitter
 
 - **Exporter:** Export tweets to a csv file named "TwitterData.csv".
